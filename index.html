@@ -12,6 +12,9 @@
             background-color: #111;
             color: white;
             text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
         header {
             background-color: black;
@@ -21,8 +24,10 @@
             border-bottom: 5px solid #f39200;
         }
         .content {
-            max-width: 1400px;
-            margin: 0 auto;
+            flex: 1;
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
             padding: 20px;
             background: #222;
             border-radius: 8px;
